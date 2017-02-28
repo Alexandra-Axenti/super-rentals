@@ -10,5 +10,12 @@ We hope you find exactly what you're looking for in a place to stay.
 
 {{new-rental saveRental2="saveRental3"}}
 
+<h2>Important announcements:</h2>
+<ul>
+  {{#each model as |announcement|}}
+     {{announcement-tile announcement=announcement}}
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
