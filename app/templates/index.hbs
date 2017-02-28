@@ -1,21 +1,16 @@
+{{#link-to 'announcement'}}Click to see latest announcements{{/link-to}}
+
 <h1> Welcome to Super Rentals </h1>
 
 We hope you find exactly what you're looking for in a place to stay.
 
 <ul>
-  {{#each model as |rental|}}
+  {{#each model.rentals as |rental|}}
      {{rental-tile rental=rental}}
   {{/each}}
 </ul>
 
 {{new-rental saveRental2="saveRental3"}}
-
-<h2>Important announcements:</h2>
-<ul>
-  {{#each model as |announcement|}}
-     {{announcement-tile announcement=announcement}}
-  {{/each}}
-</ul>
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}

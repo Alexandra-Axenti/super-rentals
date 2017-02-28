@@ -1,1 +1,9 @@
-{{outlet}}
+<h2>Important announcements:</h2>
+
+<ul>
+  {{#each model.announcements as |announcement|}}
+     {{announcement-tile announcement=announcement}}
+  {{/each}}
+</ul>
+
+{{new-announcement saveAnnouncement="saveAnnouncement"}}

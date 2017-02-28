@@ -16,5 +16,12 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-  }]
+  }],
+  "announcements": [{
+    "author": "System Admin",
+    "content": "Our website will be closed for repairs on March 10 from 8 am until 12pm. We apologise for any inconvenience."
+  }, {
+    "author": "Marketing Team",
+    "content": "We are happy to announce a 20% sales on all properties starting with April 1, 2017 until April 30, 2017"
+    }]
 }

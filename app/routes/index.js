@@ -5,8 +5,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   model() {
     return Ember.RSVP.hash({
-      rentals: this.store.findAll('rental'),
-      announcements: this.store.findAll('announcement')
+      rentals: this.store.findAll('rental')
     });
   },
 
