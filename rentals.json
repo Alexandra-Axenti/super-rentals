@@ -23,5 +23,14 @@
   }, {
     "author": "Marketing Team",
     "content": "We are happy to announce a 20% sales on all properties starting with April 1, 2017 until April 30, 2017"
+    }],
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+    }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view on the volcano!"
     }]
 }
