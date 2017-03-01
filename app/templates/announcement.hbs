@@ -3,6 +3,7 @@
 <ul>
   {{#each model.announcements as |announcement|}}
      {{announcement-tile announcement=announcement}}
+     {{update-announcement announcement=announcement update="update"}}
   {{/each}}
 </ul>
 
