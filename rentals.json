@@ -27,10 +27,12 @@
   "reviews": [{
     "author": "Andrea",
     "rating": 4,
-    "content": "Did not fall down."
+    "content": "Did not fall down.",
+    "rental": 0
     }, {
     "author": "Alex",
     "rating": 9,
-    "content": "Nice view on the volcano!"
+    "content": "Nice view on the volcano!",
+    "rental": 1
     }]
 }

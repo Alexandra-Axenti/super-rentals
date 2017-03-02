@@ -11,7 +11,6 @@ export default Ember.Component.extend({
         author: this.get('author'),
         content: this.get('content'),
       };
-      console.log("update running")
       this.set('updateAnnouncementForm', false);
       this.sendAction('update', announcement, params);
     }
