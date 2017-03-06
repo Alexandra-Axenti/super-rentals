@@ -1,6 +1,6 @@
 <li>
+  {{rental-popularity rental}} 
   {{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}} in {{rental.city}}{{/link-to}}
-  {{rental.reviews}}
   {{#if isImageShowing }}
     <p><img src={{rental.image}} alt={{rental.type}} {{action 'imageHide'}}></p>
   {{else}}
